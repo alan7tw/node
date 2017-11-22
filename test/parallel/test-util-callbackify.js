@@ -1,5 +1,6 @@
 'use strict';
 const common = require('../common');
+common.crashOnUnhandledRejection()
 
 // This test checks that the semantics of `util.callbackify` are as described in
 // the API docs
